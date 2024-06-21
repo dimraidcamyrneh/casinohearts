@@ -46,6 +46,20 @@
     margin-top: 18px;
     margin-bottom: 0;
   }
+
+  h3 {
+    font-size: x-large;
+    color: red;
+    margin-top: 16px;
+    text-decoration: underline;
+  }
+
+  p {
+    font-size: x-large;
+    color: #CC9900;
+    margin-top: 16px;
+  }
+  
   
   #home-banner img {
     border: 9px;
@@ -69,7 +83,7 @@
         max-width: 90%;
     }
     #home-banner {
-        font-size: .8rem;
+        font-size: 1.2rem;
       }
 
     h1 {
@@ -80,16 +94,13 @@
         font-size: 1rem;
       }
 
+    p {
+      font-size: 1.2rem;
+    }
+
       #home-banner img {
+        border: 3px solid #CC9900;
         max-width: 100%;
         margin: 0px auto 0px auto;
-      }
-
-      #home-nav img {
-        width: 90px;
-        height: auto;
-        max-width: 100%;
-        border: none;
-        margin: 16px auto;
       }
   }
